@@ -1,0 +1,100 @@
+.navbar{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content:center;
+}
+.navbar ul{
+  width: 80%;
+ display: flex;
+ justify-content: space-around;
+ list-style: none;
+ margin-inline: auto;
+ padding: 1.1em;
+}
+
+
+.navbar ul li{
+color: white;
+font-weight: bold;
+
+}
+.navbar ul li:hover{
+  color: rgb(67, 25, 182);
+  cursor: pointer;
+  
+  }
+  a{
+    text-decoration: none;
+  }
+  .card{
+margin-left: 20px;
+    width: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  .card img{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+  }
+  .card .card{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+  }
+  .card .card-contetnt{
+ text-align: center;
+  }
+  .gamelist{
+    width: 98%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+   margin: 0 auto;
+ 
+  }
+  .addgame{
+    width: min(80%,1000px);
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+    margin: 0 auto;
+  }
+  .addgame > *{
+   color: gray;
+  }
+  .addgame input,select,button{
+   width: 80%;
+   padding: 12px;
+   outline:none;
+   }
+   .addgame button{
+    width: 80%;
+    padding: 12px;
+    color:white;
+    border-radius: 8px;
+    background-color: blueviolet;
+    margin-top: 50px;
+    border: none;
+    }
+    .updategame{
+      position: absolute;
+      background-color: rgb(255, 255, 255);
+      top: 0;
+      width: 100%;
+      height: 120vh;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
